@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+ 
+ 
+body 
+{
+   font-family: 'Quicksand', sans-serif;
+   color: black;
+   margin: 0;
+   padding: 0;   
+}
+main
+{
+   padding: 20px;
+   overflow: auto;
+}
+.jumbotron 
+{
+   font-size: 30px;
+   padding: 30px;
+   background-color: #f1ecc3;
+   text-align: center;
+   color:black;
+}
+
+.featured-image {
+   width: 100%;
+   max-height: 200px;
+   object-fit: scale-down;
+   object-position: center;
+}
+.profile img {
+   width: 200px;
+}
+.card {
+   box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+.card:hover{
+   box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2);
+}
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-left: 20px;
+}
+nav {
+   background-color: #c9d8b6;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 40px;
+    text-decoration: none;
+    color: #116455;
+}
+nav a:hover{
+   color: black;
+    font-weight: bold;
+}
+header {
+   display: inline;
+}
+.profile header {
+    text-align: center;
+ }
+ 
+h2, h3 {
+   color: black
+}
+
+* {
+   box-sizing: border-box;
+}
+footer {
+   
+   padding: 3px;
+   color: white;
+   background-color: #343b3d;
+   text-align: center;
+   font-weight: bold;
+}
+#content {
+   float: left;
+   width: 70%;
+}
+aside {
+   float: right;
+   width: 30%;
+   padding-left: 20px;
+}
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
+.dropbtn {
+   background-color: #4CAF50;
+   color: white;
+   padding: 16px;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+   background-color: #3e8e41;
+   font-weight: bold;
+}
+
+.dropdown {
+   position: relative;
+   display: inline-block;
+   margin-left: 20px;
+}
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 160px;
+   overflow: auto;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
